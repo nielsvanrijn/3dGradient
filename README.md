@@ -25,3 +25,31 @@ If you want the child elements of the main element to change perspective too, us
 transform: scale(0.8333) translateZ(50px);
 -webkit-transform: scale(0.8333) translateZ(50px);
 ```
+
+## Usage
+
+To use the script just add A class to whatever HTMLelement you want, and specify it in the script
+
+In this example I have four elements that get the effect
+```html
+<div class="flexrow">
+    <div class="card">
+        <h1>A</h1>
+    </div>
+    <div class="card">
+        <h1>B</h1>
+    </div>
+    <div class="card">
+        <h1>C</h1>
+    </div>
+    <div class="card">
+        <h1>D</h1>
+    </div>
+</div>
+```
+
+The default HTMLelment and class combination is div.card, but you can change it in whatever you want!
+On line 6 of the script pass your HTMLelement and class cobination in the `querySelectorAll`.
+```js
+document.querySelectorAll('div.card').forEach(function(elem) {...}
+```
