@@ -4,7 +4,9 @@ A lightweight javascript file to create a cool 3d hover effect
 ## Installation
 
 Include the 3d Gradient script in your html head
-`<script defer type="text/javascript" src='3dGradient.js'></script>`
+```html
+<script defer type="text/javascript" src='3dGradient.js'></script>
+```
 
 In the element that your want the effect add these styles
 ```css
