@@ -20,6 +20,6 @@ Done!
 
 If you want the child elements of the main element to change perspective too, use these styles
 ```css
-transform:scale(0.8333) translateZ(50px);
--webkit-transform:scale(0.8333) translateZ(50px);
+transform: scale(0.8333) translateZ(50px);
+-webkit-transform: scale(0.8333) translateZ(50px);
 ```
