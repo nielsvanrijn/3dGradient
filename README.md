@@ -53,3 +53,4 @@ On line 6 of the script pass your HTMLelement and class cobination in the `query
 ```js
 document.querySelectorAll('div.card').forEach(function(elem) {...}
 ```
+Enjoy!
