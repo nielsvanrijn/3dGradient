@@ -49,7 +49,7 @@ In this example I have four elements that get the effect
 ```
 
 The default HTMLelment and class combination is div.card, but you can change it in whatever you want!
-On line 6 of the script pass your HTMLelement and class cobination in the `querySelectorAll`.
+On line 6 of the script pass your HTMLelement and class cobination in the `querySelectorAll`
 ```js
 document.querySelectorAll('div.card').forEach(function(elem) {...}
 ```
