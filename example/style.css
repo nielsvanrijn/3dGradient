@@ -1,0 +1,63 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+section div.flexrow{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+section div.flexrow div.card{
+    width: 8vw;
+    height: 8vw;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+    position: relative;
+    border-radius: 5px;
+    will-change: transform;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+    transition: 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    -webkit-transition: 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+
+}
+section div.flexrow div.card:nth-child(1){
+    background: linear-gradient(135deg, #3bb2b8 0%, #42E695 100%);
+}
+section div.flexrow div.card:nth-child(2){
+    background: linear-gradient(135deg, #ef325b 0%, #ffe076 100%);
+}
+section div.flexrow div.card:nth-child(3){
+    background: linear-gradient(135deg, #6078ea 0%, #17ead9 100%);
+}
+section div.flexrow div.card:nth-child(4){
+    background: linear-gradient(135deg,  #f02fc2 0%, #6094ea 100%);
+}
+section div.flexrow div.card > *{
+    font: normal 5em sans-serif;
+    color: white;
+    transform:scale(0.8333) translateZ(50px);
+    -o-transform:scale(0.8333) translateZ(50px);
+    -ms-transform:scale(0.8333) translateZ(50px);
+    -moz-transform:scale(0.8333) translateZ(50px);
+    -webkit-transform:scale(0.8333) translateZ(50px);
+}
