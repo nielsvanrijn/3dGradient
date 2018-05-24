@@ -1,6 +1,6 @@
 # 3dGradient
 A lightweight javascript file to create a cool 3d hover effect
-======
+
 ## Installation
 
 Include the 3d Gradient script in your html head
