@@ -10,6 +10,7 @@ Include the 3d Gradient script in your html head
 
 In the element that your want the effect add these styles
 ```css
+background: linear-gradient(135deg, #FF7A76 0%, #ffe076 100%);
 will-change: transform;
 transform-style: preserve-3d;
 transform: perspective(300px) rotateX(0deg) rotateY(0deg);
@@ -17,6 +18,7 @@ transform: perspective(300px) rotateX(0deg) rotateY(0deg);
 transition: 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
 -webkit-transition: 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
 ```
+You can change the linear-gradient to whatever you would like it to be
 
 Done!
 
